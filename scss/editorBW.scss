@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.editorBW {
+  .media {
+    display: block;
+  }
+  ol {
+    li {
+      list-style-type: decimal;
+      list-style-position: inside;
+    }
+  }
+  ul {
+    li {
+      list-style-type: disc;
+      list-style-position: inside;
+    }
+  }
+  .marker-custom1 {
+    background-color: #00bfa8;
+  }
+  .marker-custom2 {
+    background-color: #e5f5ed;
+  }
+  .marker-custom3 {
+    background-color: #fdd9d7;
+  }
+  .marker-custom4 {
+    background-color: #fee8cf;
+  }
+  .marker-yellow {
+    background-color: #fdfd77;
+  }
+  .marker-green {
+    background-color: #63f963;
+  }
+  .marker-pink {
+    background-color: #fc7999;
+  }
+  .marker-blue {
+    background-color: #72cdfd;
+  }
+}

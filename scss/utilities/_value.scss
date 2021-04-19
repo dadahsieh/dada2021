@@ -1,0 +1,79 @@
+// *******************
+// 網站所有參數設定
+// *******************
+
+// Color
+$primary: #28a7b8;
+$primary-light: #494b96;
+$secondary: #412600;
+$success: #8cc152;
+$warning: #f6bb42;
+$danger: #f06030;
+// Title Color
+$titlecolor: #b89057;
+// Text Color
+$textcolor: #412600;
+// Glay tone lever
+$deeptone: #333;
+$midtone: #666;
+$lighttone: #999;
+$slighttone: #ddd;
+$white: #fff;
+$linecolor: #e5e5e5;
+
+// Body Background
+$bg-body: #E5E5E2;
+$bg-footer: #2a353e;
+
+// Fonts 設定
+$fonts: "Helvetica",
+"Microsoft JhengHei",
+Verdana,
+Arial,
+sans-serif;
+// 圓角
+$borderRadius: 10px;
+
+body {
+    background: $bg-body;
+    color: $textcolor;
+    font-family: $fonts;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+}
+
+// *******************
+// 字級大小RWD
+// *******************
+// Fontsize RWD初始設定
+$mobile-fsize:8px;
+$tablets-fsize: 18px;
+$desktops-fsize: 20px;
+// Fontsize 等級
+$fontBody: 1rem; //13px,18px,20px
+$fontS: 0.8rem;
+$fontM: 1.2rem;
+$fontTitle: 1.75rem;
+
+
+
+html {
+    font-size: $mobile-fsize;
+}
+
+@media (min-width: 640px) and (max-width: 1200px) {
+    html {
+        font-size: $tablets-fsize;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: $desktops-fsize;
+    }
+}
+
+body {
+    font-size: $fontBody;
+}
